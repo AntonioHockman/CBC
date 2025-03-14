@@ -6,3 +6,32 @@ text-align: center;
     margin: auto;
     width: 50%;
 }
+h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+.docDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    /* border: 1px solid black; */
+  }
+  
+  /* img {
+    width: 50%;
+    height: 50%;
+  } */
+#docRes {
+    width: 400px;
+    height: 500px;
+    
+}
+
+#founderPics {
+    width: 400px;
+    height: 400px;
+    
+}
