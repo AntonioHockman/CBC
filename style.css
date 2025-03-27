@@ -1,3 +1,7 @@
+.body {
+    background-color: rgb(52, 152, 219); /* This sets the background color to the same shade of blue using RGB values */
+}
+
 h1{
 text-align: center;
 }
@@ -8,22 +12,20 @@ text-align: center;
 }
 h3{
     text-align: center;
+    text-decoration-line: underline;
 }
 h4{
     text-align: center;
+    
 }
 .docDiv {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 600px;
-    /* border: 1px solid black; */
+  
   }
   
-  /* img {
-    width: 50%;
-    height: 50%;
-  } */
 #docRes {
     width: 400px;
     height: 500px;
@@ -35,3 +37,18 @@ h4{
     height: 400px;
     
 }
+
+.jPic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+  
+  }
+  #jPhotoId {
+    width: 400px;
+    height: 500px;
+    
+}
+
+carouselsTexts
