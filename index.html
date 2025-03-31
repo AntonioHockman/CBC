@@ -11,24 +11,31 @@
 
 
   <body class = "body">
-    <h1>Columbia Boxing Club</h1>
-    <nav class="container text-center">
+    <h1> <span class="red">Columbia</span> 
+      <span class="white">Boxing</span> 
+      <span class="blue">Club</span></h1>
+    <nav class="container text-center" id="navBar" id="top">
         <div class="row">
           <div class="col">
              <a href="#history">
                 History</a>
           </div >
           <div class="col">
-            <a href=""> Coaches</a>
+            <a href="#coaches"> Coaches</a>
           </div>
           <div class="col">
-            <a href ="">Contact</a>
+            <a href ="#contacts">Contact</a>
           </div>
         </div>
     </nav>
+    <br>
 
       <main class ="main_photo"> 
         <img src ="./photos/homepic.jpg" alt="boxers standing in ring" id="homepic" >
+        <br>
+        <p id="misstionStatement">
+        
+        </p>
       </main>
       <br>
       <section>
@@ -80,6 +87,7 @@
 
               
                 </div>
+
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#docCarousel" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -93,7 +101,7 @@
       
       <section>
         <br>
-        <h2> Coaches</h2>
+        <h2 id="coaches"> Coaches</h2>
         <br>
         <h3> Head Coach</h3>
         <h4 style="font-weight: bold;"> Jerome Pillow "J-one"</h4>
@@ -144,14 +152,51 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
+        <h4> Assistant Coaches</h4>
+        <ul class="aCoaches">
+          <li>
+            <img src="./photos/Male Silhouette.jpg" alt="placeHolder" id="aCoachPhotos">
+            Frank 
+          </li>
+          <li>
+            <img src="./photos/Male Silhouette.jpg" alt="placeHolder" id="aCoachPhotos">
+            Gabe 
+          </li>
+          <li>
+            <img src="./photos/Male Silhouette.jpg" alt="placeHolder" id="aCoachPhotos">
+            Antonio
+          </li>
+        </ul>
 
       </section>
+      <br>
+      <section>
+        <h2 id="contacts">Contact and Information</h2>
+        <p>The best way to contact is to call or text one of the coaches listed above. Let them know how you found thier number and that you are interested in coming to the gym. We are open to the community free of charge, dontations welcome, <p>
+          <ul> <h5>
+            Contact list
+          </h5>
+          <li>Jerome : (931)-797-4717</li>
+          <li>Frank : (615)-753-8709</li>
+          <li>Gabe :(615)-753-8709</li>
+          <li>Antonio:(615)-854-9901</li>
+          
+        </ul>
+        <h5>
+          Hours
+        </h5>
+        <p>Monday-Friday 6pm - 8pm</p>
+        <h5>Location</h5>
+        <p>The gym does not have an physical adress, over the years it has been shared through word of mouth, keeping a tight community of members who knew its location. It is found easily by searching for Salazars barber shop, and located behing the building. This location is found off Theta Pike off of Nasvhille Hwy in Columbia Tn. Please refer to the google image for a representation of the location, ask coaches for help finding it if not understood. 
+  
+        </p>
+
+      </section>
+      <div class="navbar" id="backButton">
+        <a href="#top">Back to Top</a>
+      </div>
+      <!-- <nav id="backButton"> Back to Top </nav> -->
       
-
-
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 

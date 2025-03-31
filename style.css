@@ -1,14 +1,25 @@
 .body {
-    background-color: rgb(52, 152, 219); /* This sets the background color to the same shade of blue using RGB values */
+    background-color: rgb(133, 107, 107); /* This sets the background color to the same shade of blue using RGB values */
 }
 
 h1{
 text-align: center;
 }
+.red{
+    color: red;
+}
+.white{
+    color:white;
+}
+.blue{
+    color: blue;
+}
 #homepic {
     display: block;
     margin: auto;
-    width: 50%;
+    width: 40%;
+    height:500px
+    
 }
 h3{
     text-align: center;
@@ -51,4 +62,27 @@ h4{
     
 }
 
-carouselsTexts
+#carouselTexts{
+    /* text-align: center; */
+}
+#aCoachPhotos{
+    width:100px;
+    height:150px;
+}
+
+#history{
+    border: bold;
+}
+
+#navBar{
+    background-color: rgb(49, 42, 42);
+}
+
+#backButton{
+        display: flex;               /* Use flexbox layout */
+        justify-content: center;     /* Center horizontally */
+        align-items: center;         /* Center vertically (if needed) */
+    
+    background-color: rgb(49, 42, 42);
+    
+}
