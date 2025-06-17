@@ -1,5 +1,5 @@
 .body {
-    background-color: rgb(223, 106, 106); /* This sets the background color to the same shade of blue using RGB values */
+    background-color: rgb(106, 12, 12); /* This sets the background color to the same shade of blue using RGB values */
 }
 
 h1{
@@ -20,6 +20,7 @@ text-align: center;
     justify-content: center;
     align-items: center;
     height: 600px;
+    
 }
 #homepic {
     /* display: block;
@@ -29,6 +30,8 @@ text-align: center;
      */
     width: 400px;
     height: 500px;
+    width: 100%;
+    max-width: 600px; /* Adjust the maximum width as needed */
 }
 h3{
     text-align: center;
@@ -55,17 +58,47 @@ font-size: xx-large;
     
 }
 
-#founderPics {
+/* coypic id keeps docs couch of year pick to left and sized */
+#coyPic {
     width: 400px;
     height: 400px;
      
     margin-left: 120px; ;
 }
-/* Media query to remove left margin on smaller screens */
-@media screen and (max-width: 600px) {
-    #founderPics {
+ @media screen and (max-width: 600px) {
+    #coyPic {
         margin-left: 100px; /* Remove left margin */
-        width:200px;
+        width:200px; 
+        height: 200px;
+        
+    }
+}
+#ggPic {
+    width: 400px;
+    height: 400px;
+     
+    margin-left: 120px; ;
+}
+ @media screen and (max-width: 600px) {
+    #ggPic {
+        margin-left: 100px; /* Remove left margin */
+        width:200px; 
+        height: 200px;
+        
+    }
+}
+
+/* applies to all other pictures in carousel besides first one above*/
+.carouselPics {
+    width: 400px;
+    height: 400px;
+   margin-left: 500px;
+   margin-right: 400px;  }
+/* Media query to remove left margin on smaller screens */
+ @media screen and (max-width: 600px) {
+    .carouselPics {
+        margin-left: 100px; /* Remove left margin */
+        width:200px; 
         height: 200px;
         
     }
@@ -83,16 +116,13 @@ font-size: xx-large;
     background-color: rgb(238, 241, 245);
 
 }
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-color: rgb(0, 149, 255); /* Set the background color to red */
-
+#ggDisc{
+    background-color: rgb(238, 241, 245);
+    border: 2px solid black; /* Change the color and thickness as needed */
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
-.carousel-control-prev:hover .carousel-control-prev-icon,
-.carousel-control-next:hover .carousel-control-next-icon {
-  background-color: rgb(15, 20, 143); /* Optional: change color on hover */
-}
 
 
 .jPic {
@@ -108,13 +138,32 @@ font-size: xx-large;
     
 }
 
-
-#aCoachPhotos{
-    width:100px;
-    height:150px;
-    margin-left: 50px;
-    margin-right: 50px;
+.acContacts {
+    display: flex;               /* Use flexbox */
+    flex-direction: row;     /* Stack items vertically */
+    align-items: center;        /* Center items horizontally */
+    justify-content: center;     /* Center items vertically */
+    text-align: center;         /* Center text */
 }
+@media screen and (max-width: 600px) 
+ { .acContacts{
+
+     display: flex;               /* Use flexbox */
+     flex-direction: column;     /* Stack items vertically */
+     align-items: center;        /* Center items horizontally */
+     justify-content: center;     /* Center items vertically */
+     text-align: center;         /* Center text */
+    }
+}
+
+.aCoachPhotos{
+  margin: 10px;              /* Add some space between images */
+    width: 100px;              /* Set a width for the images (adjust as needed) */
+    height: 150px;              /* Maintain aspect ratio */
+}
+
+
+
 
 #history{
     border: bold;
