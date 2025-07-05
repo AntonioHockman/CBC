@@ -46,6 +46,17 @@ text-align: center;
     width: 100%;
     max-width: 600px; /* Adjust the maximum width as needed */
 }
+h2{
+  
+    background-color:royalblue;
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    color: black;
+    margin-left:10px;
+    margin-right: 10px;
+     border: 2px solid black; /* Change the col1`                                           or and thickness as needed */
+    padding: 10px; /* Optional: adds space between the text and the border */  
+}
 h3{
     text-align: center;
     text-decoration-line: underline;
@@ -178,9 +189,9 @@ font-size: xx-large;
 
 
 
-#history{
-    border: bold;
-}
+
+
+
 
 #navBar{
     background-color: rgb(49, 42, 42);
